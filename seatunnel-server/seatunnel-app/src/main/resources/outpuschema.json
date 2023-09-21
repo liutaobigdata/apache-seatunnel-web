@@ -1,0 +1,6 @@
+{
+  "sql": {
+    "sourceFieldName": "name",
+    "query": "select  name ,age from  person where age>30"
+  }
+}
