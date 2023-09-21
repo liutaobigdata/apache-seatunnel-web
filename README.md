@@ -205,3 +205,8 @@ Now ,let me show you how to use it.
 
 #### Virtual Tables manage
 ![img.png](docs/images/VirtualImage.png)
+
+###  Bug Fixed 
+*  Fixed the problem that kafka source virtual table cannot be found
+### Improvement
+*  When the job is created, a file ending with .conf will be created in the project space directory. The improvement this time is to change the configuration file with the .conf suffix created by the job to read it from the database.
